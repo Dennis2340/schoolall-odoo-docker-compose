@@ -1,8 +1,9 @@
 from odoo import fields, models
 
-class PropertyModel(models.Model):
+class EstateModel(models.Model):
     _name = "esate_model",
     _description = "Real Estate Model"
+    id = "model_estate_model"
     
     # columns in the PropertyModel table
     name = fields.Char("Name",required=True)

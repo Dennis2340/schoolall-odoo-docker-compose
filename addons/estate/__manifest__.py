@@ -7,7 +7,7 @@
     'summary': 'This module is use to manage real estates',
     'depends': ['base','web'],
     'data': [
-      
+      "security/ir.model.access.csv"
     ],
     
     'installable': True,
